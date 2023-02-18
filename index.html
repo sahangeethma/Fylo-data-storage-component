@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        position: absolute;
+        bottom: 2rem;
+        color: hsl(0, 0%, 73%);
+      }
+      .attribution a {
+        color: hsl(0, 0%, 73%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="first-part">
+        <img src="./images/logo.svg" alt="" class="logo" />
+        <div class="flex-icons">
+          <span class="icon document"></span>
+          <span class="icon folder"></span>
+          <span class="icon upload"></span>
+        </div>
+      </div>
+      <div class="stack__second">
+        <div class="second-part">
+          <p class="title">You’ve used <b>815 GB</b> of your storage</p>
+          <div class="range">
+            <div class="runner">
+              <div class="point"></div>
+            </div>
+          </div>
+          <div class="text">
+            <p class="min-gb">0 GB</p>
+            <p class="max-gb">1000 GB</p>
+          </div>
+          <!-- <input type="range" class="data-remaing-range" min="0" max="1000" value="815" step="1"> -->
+        </div>
+        <div class="stack-remaining-gb">
+          <h1 class="number">185</h1>
+          <span class="stack-rest">GB Left</span>
+          <span class="triangle"></span>
+        </div>
+      </div>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Geethma</a>.
+    </footer>
+  </body>
+</html>
